@@ -32,6 +32,7 @@ body{
    background-image: url("img/menu-img.png");
    background-position: center;
    background-size: cover;
+   height: auto;
 }
 
 .icon-x{
@@ -92,7 +93,7 @@ body{
 
   }
   .R{
-    background: rgb(124, 39, 203) !important;
+    background: blue !important;
     height: 300px;
     border: 3px solid #0ef;
   
@@ -207,8 +208,20 @@ body{
    .contact-img{
     background-color: blue;
     margin-top: 40px;
-   }
  
+    
+   }
+   .contact-img1{
+    background-color: aqua;
+   }
+
+   .cxc{
+    color: blue;
+   }
+ .small-img{
+  margin-top: 100px;
+  width: 100%;
+ }
    .contact-img-Size{
     
    }
@@ -244,31 +257,60 @@ body{
    }
 
 
-   /* yyyyyyyyyyyyyyyyyyyyyyy */
-   .skill-bars {
-    width: 300px;
+ /* footer section */
+
+
+ /* mid section */
+ .imgsize{
+  margin-top: 20px;
+  width: 80px;
+  
+ }
+
+ /* responsiv */
+.cennter{
+  text-align: center !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
-.skill-bar {
-    margin-bottom: 10px;
-    overflow: hidden;
-    padding: 5px;
-    background-color: #ddd;
-    border-radius: 5px;
+   /* skill */
+   .skill-bar {
+    width: 80%;
+    margin: auto !important;
+    padding: 7px;
+    margin-bottom: 20px !important;
+    border: 2px solid aqua;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    /* background-color: rgb(126, 106, 112); */
+    
 }
-
-.skill-bar span {
-    display: block;
-    height: 100%;
-    border-radius: 5px;
+.skkkk{
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+.skill {
+    width: 0;
+    height: 10px;
+    color: rgb(241, 241, 243) !important;
+    font-weight: bold;
     background-color: #4caf50;
-    color: white;
     text-align: center;
     line-height: 30px;
-    transition: width 1s;
+   border-radius: 5px;
+    
 }
+    
+ /* map */
+ .maps{
+  width: 100% !important
+  ;
+  height: 600px !important;
+ }
 
-.html { width: 90%; }
-.css { width: 80%; }
-.js { width: 70%; }
-.python { width: 60%; }
+@media only screen and (max-width: 768px) {
+  .col-md-6{
+    width: 100% !important;
+  }
+}
