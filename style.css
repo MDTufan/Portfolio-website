@@ -16,12 +16,23 @@ body{
 
 .text-color{
     color: blue;
+  
 }
 
 .xx-icon{
     color: yellow;
     font-size: 18px;
 }
+
+
+/* .xxborder{
+ 
+  background-color: black;
+margin-top: 0px;
+  width: 90px !important;
+  height: 5px !important;
+  margin: auto !important;
+} */
 /* navber hreo */
 .nav-color{
     
