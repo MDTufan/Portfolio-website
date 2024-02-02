@@ -7,6 +7,14 @@ body{
     
 }
 
+
+.logudesignA{
+  
+  color: rgb(175, 53, 13);
+  font-weight: bold;
+  font-size: 27px;
+}
+
 .man{
   margin-top: -90px !important;
 }
