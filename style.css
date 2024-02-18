@@ -301,10 +301,16 @@ margin-top: 0px;
   justify-content: center !important;
 }
 /* skill ber */
+
+/* .bgvv{
+  background-color: #0ef;
+  z-index: -3 !important;
+} */
 .skills-area {
   display: flex;
   flex-direction: column;
   padding: 0 20%;
+  /* background-color:#0ef; */
 }
 
 .skill {
@@ -319,22 +325,29 @@ margin-top: 0px;
 
 .skill-bar {
   width: 100%;
-  background: rgba(115, 48, 48, 0.6);
-  height: 40px;
+  background: #d9a7c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 30px;
   z-index: -1;
   border-radius: 100px;
   position: absolute;
 }
 
 .skill-fill {
-  background: blue;
-  height: 40px;
+  background: #ff0084;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #33001b, #ff0084);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #33001b, #ff0084); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 30px;
   border-radius: 100px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding-right: 30px;
   overflow: hidden;
+  color: #fff;
 }
 
 .skill-percent {
@@ -343,7 +356,7 @@ margin-top: 0px;
 
 .html {
   animation: html 2s;
-  width: 50%;
+  width: 90%;
 }
 
 .css {
@@ -355,13 +368,17 @@ margin-top: 0px;
   animation: js 2s;
   width: 70%;
 }
+.Re {
+  animation: js 2s;
+  width: 85%;
+}
 
 @keyframes html {
   from {
     width: 0;
   }
   to {
-    width: 50%;
+    width: 90%;
   }
 }
 
@@ -380,6 +397,14 @@ margin-top: 0px;
   }
   to {
     width: 70%;
+  }
+}
+@keyframes Re {
+  from {
+    width: 0;
+  }
+  to {
+    width: 85%;
   }
 }
 
